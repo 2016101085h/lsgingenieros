@@ -1,13 +1,13 @@
 @extends('principal')
 @section('contenido')
 <template v-if="menu==0">
-    <Example-component></Example-component>
-</template>
-<template v-if="menu==1">
     <h1>Vista de Menu 0</h1>
 </template>
+<template v-if="menu==1">
+    <estudiante></estudiante>
+</template>
 <template v-if="menu==2">
-    <h1>Vista de Menu 1</h1>
+        <curso></curso>
 </template>
 <template v-if="menu==3">
     <h1>Vista de Menu 2</h1>
@@ -16,7 +16,7 @@
     <h1>Vista de Menu 3</h1>
 </template>
 <template v-if="menu==5">
-    <h1>Vista de Menu 4</h1>
+        <profesor></profesor>
 </template>
 <template v-if="menu==6">
     <h1>Vista de Menu 5</h1>

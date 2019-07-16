@@ -10,34 +10,30 @@
                     <li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-bag"></i> Almacenamiento</a>
                         <ul class="nav-dropdown-items">
-                            <li @click="menu=1"class="nav-item">
+                            <li @click="menu=1" class="nav-item">
                                 <a class="nav-link" href="#"><i class="icon-bag"></i> Estudiantes</a>
                             </li>
                             <li @click="menu=2" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-bag"></i> Asignaturas</a>
+                                <a class="nav-link" href="#"><i class="icon-bag"></i> Cursos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-user"></i> Matriculas</a>
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-user"></i> Registros</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=3" class="nav-item">
                                 <a class="nav-link" href="i#"><i class="icon-user"></i> Matriculados</a>
                             </li>
-                            <li @click="menu=4" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-notebook"></i> Nueva Matricula</a>
-                            </li>
+                           
                         </ul>
                     </li>
                     <li class="nav-item nav-dropdown">
-                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-people"></i> Docentes</a>
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-people"></i> Profesores</a>
                         <ul class="nav-dropdown-items">
                             <li @click="menu=5" class="nav-item">
-                                <a class="nav-link" href="i#"><i class="icon-user"></i> Docente</a>
+                                <a class="nav-link" href="i#"><i class="icon-user"></i> Profesor</a>
                             </li>
-                            <li @click="menu=6" class="nav-item">
-                                <a class="nav-link" href="#"><i class="icon-notebook"></i> Nuevo Docente</a>
-                            </li>
+                          
                         </ul>
                     </li>
                     <li class="nav-item nav-dropdown">

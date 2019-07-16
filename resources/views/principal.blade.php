@@ -36,11 +36,11 @@
         </ul>
         <ul class="nav navbar-nav ml-auto">
             <li class="nav-item d-md-down-none">
-                <a class="nav-link" href="#" data-toggle="dropdown">
+                <a class="nav-link" href="#" data-toggle="dropdown" data-target="#2">
                     <i class="icon-bell"></i>
                     <span class="badge badge-pill badge-danger">5</span>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right">
+                <div class="dropdown-menu dropdown-menu-right" id="2">
                     <div class="dropdown-header text-center">
                         <strong>Notificaciones</strong>
                     </div>
@@ -55,11 +55,11 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" data-target="#1" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
                     <span class="d-md-down-none">admin </span>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right">
+                <div class="dropdown-menu dropdown-menu-right" id="1">
                     <div class="dropdown-header text-center">
                         <strong>Cuenta</strong>
                     </div>
